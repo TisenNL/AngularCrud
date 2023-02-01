@@ -10,7 +10,7 @@ No terminal na pasta do projeto execute `npm install` ou `yarn install`.
 
 Antes de realizar este passo verifique se possue o angular CLI instalado `ng version`
 
-Para instalar o angular CLI `npm install -g @angular/cli`
+Para instalar o angular CLI `npm install -g @angular/cli`.
 
 No terminal na pasta do projeto execute `ng serve` ou `npm run start` ou `yarn start` para disponibilizar o servidor dev local. Navege até `http://localhost:4200/`. A aplicação será automaticamente recarregada se você mudar qualquer coisa no código fonte.
 
