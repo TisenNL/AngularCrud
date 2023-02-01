@@ -30,10 +30,10 @@
     {
       "productName": "Celular",
       "category": "Eletrônicos",
-      "freshness": "Remodelado",
-      "price": 199,
-      "comment": "Este produto foi remodelado.",
-      "date": "2016-02-03T02:00:00.000Z",
+      "freshness": "Novo",
+      "price": 200,
+      "comment": "Esse é barato.",
+      "date": "2023-02-01T03:00:00.000Z",
       "id": 4
     }
   ],
