@@ -1,27 +1,38 @@
 # AngularCrud
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3 e com [Angular Material](https://material.angular.io/) version 15.1.2
 
-## Development server
+# Instalação do projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Depois de clonar o projeto rode o comanto
 
-## Code scaffolding
+## Servidor de Desenvolvimento
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Rode `ng serve` ou `npm run serve` ou `yarn serve` para disponibilizar o servidor dev local. Navege até `http://localhost:4200/`. A aplicação será automaticamente recarregada se você mudar qualquer coisa no código fonte.
+
+## Banco de Dados Json-Server
+
+Este projeto faz uso do json-server como banco de dados. [Json-Sever](https://github.com/typicode/json-server) version 0.17.1.
+Para disponibiliza-lo localmente rode o comando `npm run db` ou `yarn db` ou `json-server --watch db.json`, o pacote json-server está instalado localmente no projeto, porém em caso de erros, recomendo instalar a sua dependência globalmente `npm install -g json-server`.
+
+## Estrutura de código
+
+Rode `ng generate component component-name` para gerar um novo componente. Você pode também usar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Rode `ng build` para buildar o projeto. Os aterfatos do build estarão armazenado no diretório `dist/`.
 
-## Running unit tests
+## Rodar unit test
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Rode `ng test` para executar unit test via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Rodar end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Rode `ng e2e` para executar os end-to-end tests via plataforma da sua escolha. Para usar este comando,  você precisa primeiro adicionar o pacote que implementa a capacidade do end-to-end tests.
 
-## Further help
+## Maiores ajudas
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para ter mais ajuda sobre Angular CLU use `ng help` ou vá para o seguinte endereço [Angular CLI Overview and Command Reference](https://angular.io/cli).
+
+
