@@ -4,7 +4,7 @@ Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 
 # Instalação do projeto
 
-Depois de clonar o projeto rode o comanto
+Rode o comanto `npm install` ou `yarn install` na pasta do projeto.
 
 ## Servidor de Desenvolvimento
 
