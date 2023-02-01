@@ -6,15 +6,19 @@ Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 
 No terminal na pasta do projeto execute `npm install` ou `yarn install`.
 
-## Servidor de Desenvolvimento
-
-No terminal na pasta do projeto execute `ng serve` ou `npm run serve` ou `yarn serve` para disponibilizar o servidor dev local. Navege até `http://localhost:4200/`. A aplicação será automaticamente recarregada se você mudar qualquer coisa no código fonte.
-
 ## Banco de Dados Json-Server
 
 Este projeto faz uso do json-server como banco de dados. [Json-Sever](https://github.com/typicode/json-server) version 0.17.1.
 
 Para disponibiliza-lo localmente execute `npm run db` ou `yarn db` ou `json-server --watch db.json`, o pacote json-server está instalado localmente no projeto, porém em caso de erros, recomendo instalar a sua dependência globalmente `npm install -g json-server`.
+
+## Servidor de Desenvolvimento
+
+Antes de realizar este passo verifique se possue o angular CLI instalado `ng version`
+
+Para instalar o angular CLI `npm install -g @angular/cli`
+
+No terminal na pasta do projeto execute `ng serve` ou `npm run start` ou `yarn start` para disponibilizar o servidor dev local. Navege até `http://localhost:4200/`. A aplicação será automaticamente recarregada se você mudar qualquer coisa no código fonte.
 
 ## Estrutura de código
 
