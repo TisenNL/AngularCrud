@@ -1,1 +1,42 @@
-<p>dialog works!</p>
+<h1 mat-dialog-title>Formulário Adicionar Produto</h1>
+<div mat-dialog-content>
+  <form [formGroup]="productForm">
+    <mat-form-field appearance="outline" style="margin-top: 20px;">
+        <mat-label>Nome do Produto</mat-label>
+        <input formControlName="productName" matInput placeholder="Nome"/>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Categoria do Produto</mat-label>
+        <mat-select formControlName="category" placeholder="Categoria">
+            <mat-option value="Fruitas">Fruitas</mat-option>
+            <mat-option value="Vegetais">Vegetais</mat-option>
+            <mat-option value="Eletrônicos">Eletrônicos</mat-option>
+          </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Disponibilizado em</mat-label>
+        <input formControlName="date" matInput [matDatepicker]="picker">
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      <label for=""><h1>Qualidade do Produto</h1></label>
+      <mat-radio-group formControlName="freshness" class="example-radio-group">
+        <mat-radio-button class="example-radio-button" *ngFor="let fresh of freshnessList" [value]="fresh">
+            {{fresh}}
+        </mat-radio-button>
+      </mat-radio-group>
+      <mat-form-field appearance="outline">
+        <mat-label>Preço</mat-label>
+        <input formControlName="price" matInput type="number" placeholder="Preço"/>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Comentário</mat-label>
+        <textarea formControlName="comment" matInput></textarea>
+      </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-actions [align]="'end'">
+<button mat-raised-button color="warn" mat-dialog-close>Fechar</button>
+<button mat-raised-button color="primary" (click)="addProduct()">Salvar</button>
+</div>
+

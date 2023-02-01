@@ -1,0 +1,32 @@
+{
+  "productList": [
+    {
+      "productName": "Maça",
+      "category": "Fruitas",
+      "freshness": "Novo",
+      "price": 100,
+      "comment": "Esta é uma maça fresca.",
+      "date": "2023-01-20T03:00:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "Manga",
+      "category": "Fruitas",
+      "freshness": "Segunda Mão",
+      "price": 250,
+      "comment": "Esta manga não é fresca.",
+      "date": "2023-01-24T03:00:00.000Z",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
