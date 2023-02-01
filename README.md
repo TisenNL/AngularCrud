@@ -32,7 +32,7 @@ Execute `ng test` para executar unit test via [Karma](https://karma-runner.githu
 
 Execute `ng e2e` para executar os end-to-end tests via plataforma da sua escolha. Para usar este comando,  você precisa primeiro adicionar o pacote que implementa a capacidade do end-to-end tests.
 
-## Maiores ajudas
+## Para maior ajuda
 
 Para ter mais ajuda sobre Angular CLU use `ng help` ou vá para o seguinte endereço [Angular CLI Overview and Command Reference](https://angular.io/cli).
 
